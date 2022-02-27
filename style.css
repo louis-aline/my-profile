@@ -1,0 +1,78 @@
+body {
+	background-color: #B4CFB0;
+}
+
+h1 { 
+	color: #789395;
+	font-family: Shizuru; 
+	font-weight: 700; 
+	letter-spacing: 5px;
+	font-size: 32px; 
+	text-transform: uppercase;
+ }
+
+h2 {
+	font-family: Oswald;
+	color: #E5E3C9; 
+}
+ a {
+ 	text-decoration: none;
+ 	color: blue;
+ }
+
+ a:hover {
+ 	color: red;
+ }
+
+
+/*Custom design with class */
+
+
+.container {
+  width: 700px; 
+  margin: 40px auto; 
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2)
+	border-radius: 4px;
+	margin: 20px; 
+	text-align: center;
+	border: 1px solid lightgrey;
+}	
+
+.btn-blue {
+	background-color: #495371
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px; 
+}
+
+.btn-blue: hover {
+	background-color: black;
+	color: white;
+}
+
+
+.img-circle {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+
+
+.list-inline {
+  list-style: none; 
+  padding-left: 0px; 
+}
